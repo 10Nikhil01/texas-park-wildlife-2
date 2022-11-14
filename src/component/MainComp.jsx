@@ -426,17 +426,13 @@ function MainComp() {
               Please send me an application to become a Boater Education
               Instructor. Note - items marked with red square are required.
             </Typography>
-            <Grid container justifyContent="flex-start" alignItem="flex-end">
-              <Grid item md={1}>
-                <Typography
+            <Box sx={{display:"flex",alignItems:"center", gap:1}}>
+             <Typography
                   variant="h6"
-                  sx={{ mt: 3, ml: 3, display: "block" }}
-                  noWrap
+                  sx={{ mt: 3, ml: 3, }}
                 >
-                  Subject
+                  Subject:
                 </Typography>
-              </Grid>
-              <Grid item md={3}>
                 <Box
                   sx={{
                     width: 8,
@@ -445,8 +441,7 @@ function MainComp() {
                     backgroundColor: "red",
                   }}
                 />
-              </Grid>
-            </Grid>
+                </Box>
             <TextField
               id="outlined-basic"
               size="small"
@@ -466,27 +461,22 @@ function MainComp() {
               variant="outlined"
               value="Boater Education Instructor Application Request"
             />
-            <Grid container justifyContent="flex-start" alignItem="flex-start">
-              <Grid item md={1.5}>
-                <Typography
+            <Box sx={{display:"flex",alignItems:"center"}}>
+             <Typography
                   variant="h6"
-                  sx={{ mt: 3, ml: 3 }}
-                  
+                  sx={{ mt: 3, ml: 3, }}
                 >
                   First Name:
                 </Typography>
-              </Grid>
-              <Grid item md={3}>
                 <Box
                   sx={{
                     width: 8,
-                    mt:4,ml:0,
+                    mt:4,ml:1,
                     height: 8,
                     backgroundColor: "red",
                   }}
                 />
-              </Grid>
-            </Grid>
+                </Box>
             <TextField
               id="outlined-basic"
               size="small"
@@ -526,17 +516,13 @@ function MainComp() {
               }}
               variant="outlined"
             />
-            <Grid container justifyContent="flex-start" alignItem="flex-end">
-              <Grid item md={1.5}>
-                <Typography
+           <Box sx={{display:"flex",alignItems:"center"}}>
+             <Typography
                   variant="h6"
-                  sx={{ mt: 3, ml: 3, display: "block" }}
-                  noWrap
+                  sx={{ mt: 3, ml: 3, }}
                 >
                   Last Name:
                 </Typography>
-              </Grid>
-              <Grid item md={3}>
                 <Box
                   sx={{
                     width: 8,
@@ -545,8 +531,7 @@ function MainComp() {
                     backgroundColor: "red",
                   }}
                 />
-              </Grid>
-            </Grid>
+                </Box>
             <TextField
               id="outlined-basic"
               size="small"
@@ -565,17 +550,13 @@ function MainComp() {
               }}
               variant="outlined"
             />
-            <Grid container justifyContent="flex-start" alignItem="flex-end">
-              <Grid item md={1.5}>
-                <Typography
+           <Box sx={{display:"flex",alignItems:"center"}}>
+             <Typography
                   variant="h6"
-                  sx={{ mt: 3, ml: 3, display: "block" }}
-                  noWrap
+                  sx={{ mt: 3, ml: 3, }}
                 >
                   Date of Birth:
                 </Typography>
-              </Grid>
-              <Grid item md={3}>
                 <Box
                   sx={{
                     width: 8,
@@ -584,8 +565,7 @@ function MainComp() {
                     backgroundColor: "red",
                   }}
                 />
-              </Grid>
-            </Grid>
+                </Box>
             <Typography variant="h6" sx={{ ml: 3, color: "grey" }}>
               Please enter your date of birth in following format (MM/DD/YYYY)
             </Typography>
@@ -607,16 +587,13 @@ function MainComp() {
               }}
               variant="outlined"
             />
-            <Grid container justifyContent="flex-start" alignItem="flex-end">
-              <Grid item md={2}>
-                <Typography
+            <Box sx={{display:"flex",alignItems:"center"}}>
+             <Typography
                   variant="h6"
                   sx={{ mt: 3, ml: 3, }}
                 >
                   Current Address:
                 </Typography>
-              </Grid>
-              <Grid item md={3}>
                 <Box
                   sx={{
                     width: 8,
@@ -625,8 +602,7 @@ function MainComp() {
                     backgroundColor: "red",
                   }}
                 />
-              </Grid>
-            </Grid>
+                </Box>
             <TextField
               id="outlined-basic"
               size="small"
