@@ -611,8 +611,7 @@ function MainComp() {
               <Grid item md={2}>
                 <Typography
                   variant="h6"
-                  sx={{ mt: 3, ml: 3, display: "block" }}
-                  noWrap
+                  sx={{ mt: 3, ml: 3, }}
                 >
                   Current Address:
                 </Typography>
